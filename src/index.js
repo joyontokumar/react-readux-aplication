@@ -10,7 +10,6 @@ import reducers from "./reducers";
 // css link
 import '../src/assets/bootstrap.min.css';
 import '../src/assets/style.css';
-import '../src/assets/responsive.css';
 
 const store = createStore(
     reducers,
