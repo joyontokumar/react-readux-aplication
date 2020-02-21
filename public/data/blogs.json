@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "img": "blog/1.png",
+        "title": "The most unusual uses of artificial intelligence.",
+        "description": "At one time, the internet appeared to offer all organisations a simple proposition: email connectivity and a clickable presence in the form of a website"
+    },
+    {
+        "id": 2,
+        "img": "blog/2.png",
+        "title": "What Makes A Financial Website Successful?",
+        "description": "At one time, the internet appeared to offer all organisations a simple proposition: email connectivity and a clickable presence in the form of a website"
+    },
+    {
+        "id": 3,
+        "img": "blog/3.png",
+        "title": "Automation Race: Comparing 5 RPA providers.",
+        "description": "At one time, the internet appeared to offer all organisations a simple proposition: email connectivity and a clickable presence in the form of a website"
+    }
+]

@@ -1,0 +1,328 @@
+/*=======================================================================================
+    Responsive css
+=========================================================================================*/
+
+@media only screen and (min-width: 1920px) and (max-width: 2200px) {}
+
+@media only screen and (min-width: 1501px) and (max-width: 1600px) {}
+
+
+/* Layout: Max 1500px. */
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+    h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    h2 {
+        font-size: 35px;
+        line-height: 46px;
+    }
+    /* login registration page */
+    .login-from-area-right.container {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    h1 {
+        font-size: 45px;
+        line-height: 58px;
+    }
+    h2 {
+        font-size: 35px;
+        line-height: 46px;
+    }
+    h3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    /* home page */
+    .slider-title {
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .app-mode-title {
+        font-size: 18px;
+    }
+    /*========================================
+        login registration page
+    ==========================================*/
+    .login-from-area-right.container {
+        position: absolute;
+        right: 0;
+        height: 100vh;
+        width: 50%;
+    }
+    .register-forgot-btn-text {
+        font-size: 13px;
+    }
+    .login-page-content-left h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .section-padding {
+        padding: 60px 0;
+    }
+    /* responsive menu */
+    .navbar-light .navbar-toggler {
+        right: 18px;
+        position: relative;
+    }
+    ul#main-menu li a {
+        display: inline-block;
+        padding: 8px 10px;
+        margin-left: 10px;
+        color: #fff;
+    }
+    div#navtogglerItemItem {
+        position: absolute;
+        top: 100%;
+        background: #252424;
+        width: 100%;
+        left: 0;
+    }
+    ul#main-menu li a.active:after {
+        display: none;
+    }
+    /* home page */
+    nav#mainMenu {
+        padding: 10px 0;
+    }
+    .slider-title {
+        font-size: 35px;
+        line-height: 46px;
+    }
+    .banner-img {
+        margin-top: 30px;
+    }
+    .app-modes-wrapper {
+        margin-bottom: 20px;
+    }
+    .different-checkout-img-slider-wrapper {
+        margin-top: 30px;
+    }
+    .widget-wrapper {
+        margin-bottom: 30px;
+    }
+    .row.hardware-group-content:nth-child(odd) {
+        display: flex;
+        flex-flow: wrap;
+    }
+    /* faq page */
+    nav.faq-heading-name-group.nav.nav-tabs a {
+        margin-bottom: 10px;
+    }
+    /* pricing page */
+    .pricing-single-list-wrapper {
+        margin-bottom: 15px;
+    }
+    /*=============================================
+        login registration page
+    ===============================================*/
+    .login-from-area-right.container {
+        max-width: 100%;
+        left: 0;
+        width: auto;
+    }
+}
+
+
+/* Small Device : 480px. */
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h2 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    h3 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    h4 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    h5 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .section-padding {
+        padding: 50px 0;
+    }
+    /* menu responsive */
+    a.navbar-brand.site-logo-header {
+        max-width: 145px;
+    }
+    .navbar-light .navbar-toggler {
+        right: 18px;
+        position: relative;
+    }
+    .navbar-collapse.collapse.show {
+        position: absolute;
+        background: #fff;
+        top: 100%;
+        width: 100%;
+    }
+    button.navbar-toggler:focus {
+        outline: none !important;
+        border: 1px solid #35ABA7 !important;
+    }
+    nav#mainMenu {
+        padding: 10px 0;
+    }
+    .header-social-media.social-link {
+        display: none;
+    }
+    div#navtogglerItemItem {
+        position: absolute;
+        top: 100%;
+        background: #252424;
+        width: 100%;
+        left: 0;
+    }
+    ul#main-menu li {
+        margin-right: 0;
+    }
+    ul#main-menu li a {
+        display: inline-block;
+        padding: 8px 10px;
+        margin-left: 10px;
+        color: #fff;
+    }
+    .theme-btn {
+        padding: 10px 12px;
+    }
+    /* home page  */
+    h1.slider-title {
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 500;
+    }
+    .banner-img {
+        margin-top: 30px;
+    }
+    .app-mode-title {
+        font-size: 18px;
+    }
+    .app-modes-wrapper {
+        margin-bottom: 20px;
+    }
+    .different-checkout-content a {
+        padding: 9px 5px !important;
+    }
+    .different-checkout-img-slider-wrapper {
+        margin-top: 30px;
+    }
+    .widget-wrapper {
+        margin-bottom: 40px;
+    }
+    /* pricing page */
+    .pricing-single-list-wrapper {
+        margin-bottom: 20px;
+    }
+    h3.price-title {
+        font-size: 18px;
+    }
+    .row.hardware-group-content:nth-child(odd) {
+        flex-flow: column;
+    }
+    /* faq page */
+    nav.faq-heading-name-group.nav.nav-tabs a {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    /* contact page */
+    .contact-page-form-area {
+        margin-top: 30px;
+    }
+    /* how work page */
+    .feature-title {
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 15px;
+    }
+    /*===========================================
+        login registration page
+    =============================================*/
+    .login-page-content-left h1 {
+        font-size: 30px;
+    }
+    .login-form-area-left {
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform: none;
+        padding: 35px 10px;
+    }
+    .login-from-area-right.container {
+        position: relative;
+        left: 0;
+        height: 100vh;
+        width: auto;
+        background: #2b5876;
+        max-width: 100%;
+    }
+    /* sign up button */
+    ul.menu-button {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 351px) and (max-width: 767px) {
+    a.navbar-brand.site-logo-header {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 471px) and (max-width: 767px) {
+    a.navbar-brand.site-logo-header {
+        max-width: 164px;
+        margin-right: 61px;
+    }
+}
+
+
+/* Small Device : 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    nav.faq-heading-name-group.nav.nav-tabs a {
+        width: initial;
+    }
+}
+
+
+/* custom responsive */
+
+@media only screen and (min-width: 580px) and (max-width: 991px) {
+    .login-form-area-left {
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform: none;
+        padding: 35px 10px;
+        display: none;
+    }
+}
